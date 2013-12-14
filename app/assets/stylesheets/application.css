@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+	padding-top: 70px;
+}
+
+.awesomefooter {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: lime;
+}
+
+.statusee {font-weight: 400;}
+
+.statuscontent {font-weight: 300;}
