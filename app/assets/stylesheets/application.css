@@ -26,4 +26,10 @@ body {
 
 .statusee {font-weight: 400;}
 
-.statuscontent {font-weight: 300;}
+.statusseee {font-weight: 500;}
+
+.statuscontent {font-weight: 300; }
+
+.statuscontent {text-transform: capitalize;}
+
+.links {margin-top: 21px;}
