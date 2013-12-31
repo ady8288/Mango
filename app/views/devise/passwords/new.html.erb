@@ -1,12 +1,18 @@
-<h2>Forgot your password?</h2>
+<div class="page-header">
+<h1>Forgot your password?</h1>
+</div>
+<h3>No problem! Simply enter your email below to recieve password reset instructions!</h3>
 
-<%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f| %>
+<%= simple_form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f| %>
   <%= devise_error_messages! %>
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, :autofocus => true %></div>
+</br>
 
-  <div><%= f.submit "Send me reset password instructions" %></div>
+  <%= f.input :email %> 
+
+<div class="form-actions">
+  <div><%= f.submit "Send me reset password instructions", class:"btn btn-success" %></div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+</div>
