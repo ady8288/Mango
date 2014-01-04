@@ -34,5 +34,17 @@ body {
 
 .links {margin-top: 21px;}
 
-.avatar {border-radius: 50%; border: 4px solid rgb(255,77,91);}
+#letthiswork img {border-radius: 50%; border: 4px solid rgb(255,77,91);}
+
+.avatarprof {border-radius: 50%; border: 4px solid rgb(255,77,91); display: block; margin-left: auto; margin-right: auto;}
+
+.gravatarinfo {
+	vertical-align: center; margin-bottom: 2px;
+	text-align: center;
+}
+
+.prof {
+	text-align: center;
+	margin-top: 10px;
+}
 

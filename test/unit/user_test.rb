@@ -45,4 +45,8 @@ class UserTest < ActiveSupport::TestCase
      user.profile_name = 'jasonseifer_1'
      assert user.valid?
    end
+
+   test "that calling to_param on a user returns the profile name" do
+     assert_equal "jasonseifer", users(:jason).to_param
+   end  
 end

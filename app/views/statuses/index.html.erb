@@ -8,8 +8,8 @@
 
 	<div class="row">
 
-		<div class="span1">
-		    <%= image_tag status.user.gravatar_url, class:"avatar" %>
+		<div class="span1" id="letthiswork">
+		    <%= link_to image_tag(status.user.gravatar_url), profile_path(status.user) %>
 		</div>	
 		
 		<div class="span7">
