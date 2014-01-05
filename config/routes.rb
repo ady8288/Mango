@@ -11,7 +11,7 @@ Mango::Application.routes.draw do
   end
 
   resources :statuses
-  get 'feed', to: 'statuses#index', as: :feed 
+  get 'feed', to: 'statuses#index', as: 'feed' 
   root to: 'statuses#index'
 
   get '/:id', to: 'profiles#show', as: 'profile'
